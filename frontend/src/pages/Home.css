@@ -1,0 +1,58 @@
+.home-container {
+  padding: 30px;
+}
+
+/* BANNER */
+.banner {
+  background: linear-gradient(135deg, #7b2d4f, #4b1d2a);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.banner h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.logout-btn {
+  background-color: #8b2c4a;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #6e2139;
+}

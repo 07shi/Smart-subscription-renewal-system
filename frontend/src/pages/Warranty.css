@@ -1,0 +1,16 @@
+.war-container {
+  padding: 20px;
+}
+
+.war-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.war-card {
+  padding: 15px;
+  border-radius: 12px;
+  background: #eef7ff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}

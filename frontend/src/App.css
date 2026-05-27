@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+/* Optional: clean app container */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove unnecessary spinning logo if not used */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Keep animation if needed */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Link styling */
+.App-link {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
